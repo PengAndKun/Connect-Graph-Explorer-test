@@ -1,0 +1,18 @@
+{
+    "query": "{poolHourDatas(first: 100,skip: 100,where: { pool: \"0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8\", periodStartUnix_gt: 1630479600 },orderBy: periodStartUnix,orderDirection: asc) {periodStartUnix,high,low,open,close}}",
+    "variables": {
+        "exampleEntityId": null,
+        "exampleEntityBlock": {
+            "number": null
+        },
+        "exampleEntitiesFirst": null,
+        "tokensBlock": {
+            "number": null,
+            "hash": null
+        },
+        "tokensSkip": null,
+        "tokenId": null,
+        "poolId": null,
+        "poolId2": null
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "query": "{pools(where: {id_in: [\"0x279a88f04378ddfe2db152bff519763a88e3bc3f\"]}) { id,token0 {id,symbol ,name,decimals,totalSupply,volume,volumeUSD },liquidity,sqrtPrice,token0Price,token1Price,txCount,createdAtBlockNumber  }}",
+    "variables": {
+        "exampleEntityId": null,
+        "exampleEntityBlock": {
+            "number": null
+        },
+        "exampleEntitiesFirst": null,
+        "tokensBlock": {
+            "number": null,
+            "hash": null
+        },
+        "tokensSkip": null,
+        "tokenId": null,
+        "poolId": null,
+        "poolId2": null
+    }
+}

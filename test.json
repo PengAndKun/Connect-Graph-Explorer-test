@@ -1,0 +1,5 @@
+pools( first: 50,orderBy: totalValueLockedUSD, orderDirection: desc,) {id,__typename}
+tokenHourDatas(first: 100,skip: 100,where: { token: "0xfff4009ebd8813a5c529945d88679d7af48c975b", periodStartUnix_gt: 1630479600 },orderBy: periodStartUnix,orderDirection: asc) {periodStartUnix,high,low,open,close}
+poolHourDatas(first: 100,skip: 100,where: { pool: "0x45bcdf0ee83294d10b7b5c2f88c8072143b1d6b2", periodStartUnix_gt: 1630479600 },orderBy: periodStartUnix,orderDirection: asc) {periodStartUnix,high,low,open,close}
+poolHourDatas(first: 100,skip: 100,where: { pool: "0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8", periodStartUnix_gt: 1630479600 },orderBy: periodStartUnix,orderDirection: asc) {periodStartUnix,high,low,open,close}
+"queryaddr":"https://api.thegraph.com/subgraphs/name/pengandkun/uniswapinrinkeby"
